@@ -46,5 +46,13 @@
         <!-- 内存中的最大值 -->  
         <property name="maxInMemorySize" value="40960" />    
     </bean>   
+    
+    <!-- 拦截器 -->
+	<mvc:interceptors> 
+		<mvc:interceptor> 
+			<mvc:mapping path="/admin/*" /> 
+			<bean class="com.jin2ml.adoptpet.controller.interceptor.UserAuthInterceptor" /> 
+		</mvc:interceptor> 
+	</mvc:interceptors>
   
 </beans>  

@@ -1,5 +1,6 @@
 package com.jin2ml.adoptpet.controller.interceptor;
 
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -10,7 +11,7 @@ import com.jin2ml.adoptpet.model.User;
 import com.jin2ml.adoptpet.service.UserService;
 
 /**
- * 用户权限拦截
+ * 鐢ㄦ埛閴存潈
  * @author jin2ml
  *
  */
